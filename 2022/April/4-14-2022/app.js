@@ -10,7 +10,7 @@
 //R: return a phone number in the correct format (123) 456-7890
 
 //E: concantate each part of the array and add spaces etc. ( + 1 + 2 + 3 + ) = (123)
-// iterate over the array ino one string. splice each piece into the larger string you want
+// iterate over the array in one string. splice each piece into the larger string you want
 // (next example loading...)
 
 //P: start with formatted string you want. iterate and replace each x with each index of the array
