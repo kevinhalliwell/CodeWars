@@ -23,5 +23,5 @@ function createPhoneNumber(numbers){
     }
     
     return format;
-  }
+}
   
