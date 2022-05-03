@@ -6,4 +6,8 @@
 
 // R: return a string
 
-// E: I assume each vale will be one variable
+// E: I assume each value will be one variable
+
+function numberToString(num) {
+    return num.toString()
+  }
