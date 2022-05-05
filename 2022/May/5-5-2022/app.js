@@ -1,21 +1,17 @@
-// You get an array of numbers, return the sum of all of the positives ones.
+// Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
-// Example [1,-4,7,12] => 1 + 7 + 12 = 20
+// For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
-// Note: if there is nothing to sum, the sum is default to 0.
-
-// P: iterate through the array. if the value is higher than 0 add to sum
+// P: iterate through the array. square each number and add it to the total
 
 // R: return the sum of numbers
 
-// E: assume each value will be a number
+// E: assume each value will be an array
 
-function positiveSum(arr) {
-    let sum = 0
-    for (i = 0; i < arr.length; i++){
-        if (arr[i] > 0){
-            sum += arr[i]
-        }
+function squareSum(numbers){
+    let total = 0
+    for (let i = 0; i < numbers.length; i++){
+        total += Math.pow(numbers[i], 2)
     }
-    return sum
+    return total
 }
