@@ -2,7 +2,7 @@
 
 // Examples Input: [1, 5.2, 4, 0, -1] Output: 9.2 Input: [] Output: 0 Input: [-2.398] Output: -2.398
 
-// P: iterate through the array. square each number and add it to the total
+// P: iterate through the array. add each number in the array
 
 // R: return the sum of numbers retun 0 if the array is empty
 
@@ -10,7 +10,6 @@
 
 // Sum Numbers
 function sum (numbers) {
-    "use strict";
-    
-    
-};
+    const sums = numbers.reduce((partialSum, a) => partialSum + a, 0);
+    return sums
+}
